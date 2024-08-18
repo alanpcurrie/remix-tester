@@ -1,5 +1,3 @@
-import { Theme } from "@radix-ui/themes";
-import "@radix-ui/themes/styles.css";
 import {
 	Links,
 	Meta,
@@ -27,15 +25,5 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-	return (
-		<Theme
-			accentColor="orange"
-			grayColor="gray"
-			panelBackground="solid"
-			scaling="100%"
-			radius="full"
-		>
-			<Outlet />
-		</Theme>
-	);
+	return <Outlet />;
 }
