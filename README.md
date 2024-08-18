@@ -1,8 +1,8 @@
-# Welcome to Remix Tester
+# Remix Tester
 
 ![Remix](/repo.webp)
 
-This project is a Remix application with additional tooling and dependencies for enhanced development experience.
+This project is a Remix application with additional tooling and dependencies
 
 - 📖 [Remix docs](https://remix.run/docs)
 
@@ -10,41 +10,40 @@ This project is a Remix application with additional tooling and dependencies for
 
 - **Name**: remix-tester
 - **Type**: Module
-- **Package Manager**: pnpm@8.15.5
+- **Package Manager**: ppnpm@8.15.5
 - **Node Version**: >=20.0.0
 
 ## Key Dependencies
 
 - **Remix**: A full stack web framework
 - **React**: A JavaScript library for building user interfaces
-- **Radix UI**: A low-level UI component library
+- **Radix Themes**: Radix Themes is a pre-styled component library
 - **Vanilla Extract**: A zero-runtime Stylesheets-in-TypeScript library
 - **XState**: A state management library for JavaScript and TypeScript
 
-For a full list of dependencies, please refer to the `package.json` file.
 
 ## Development
 
 To run the development server:
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 This will start the Remix development server using Vite.
 
 ### Additional Scripts
 
-- **Linting**: `npm run lint` (or `npm run lint:fix` to automatically fix issues)
-- **Type Checking**: `npm run typecheck`
-- **Unit Testing**: `npm run test:unit`
+- **Linting**: `pnpm run lint` (or `pnpm run lint:fix` to automatically fix issues)
+- **Type Checking**: `pnpm run typecheck`
+- **Unit Testing**: `pnpm run test:unit`
 
 ## Building for Production
 
 To build your app for production:
 
 ```sh
-npm run build
+pnpm run build
 ```
 
 This command uses Remix with Vite to build your application.
@@ -54,7 +53,7 @@ This command uses Remix with Vite to build your application.
 To run the app in production mode:
 
 ```sh
-npm start
+pnpm start
 ```
 
 This uses `remix-serve` to run your built application.
@@ -65,7 +64,7 @@ This uses `remix-serve` to run your built application.
 
 If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
 
-Make sure to deploy the output of `npm run build`:
+Make sure to deploy the output of `pnpm run build`:
 - `build/server`
 - `build/client`
 
@@ -93,9 +92,9 @@ This project includes `rollup-plugin-visualizer` for bundle analysis. After buil
 Please ensure you run linting and tests before submitting any pull requests:
 
 ```sh
-npm run lint
-npm run typecheck
-npm run test:unit
+pnpm run lint
+pnpm run typecheck
+pnpm run test:unit
 ```
 
 
@@ -113,4 +112,4 @@ npm run test:unit
 
 [Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
+![Ppnpm](https://img.shields.io/badge/ppnpm-%234a4a4a.svg?style=for-the-badge&logo=ppnpm&logoColor=f69220)
